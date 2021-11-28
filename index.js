@@ -68,7 +68,7 @@ let questions = [
     },
     {
         ques: "There were ______ snow on the car.",
-        option1: " two feet of",
+        option1: "two feet of",
         option2: "two feet",
         option3: "a two-feet",
         option4: "a foot",
