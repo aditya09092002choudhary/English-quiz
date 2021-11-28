@@ -104,7 +104,7 @@ function selectNextQuestion() {
     if (questions.length <= 0) {
         document.querySelector(".container").classList.add("display");
         document.querySelector(".restart").classList.remove("display");
-        document.querySelector(".score > h4").innerHTML = `Score: ${score}`;
+        document.querySelector(".score > h4").innerHTML = `Score: ${score}/10`;
         if(score>5){
         let music = new Audio("sound/win.wav");
         music.play();
