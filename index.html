@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz | Lets Test Your English</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+    <div class="start " id="start">
+        
+        <div class="btn">
+            <button onclick="start()">Start Quiz</button>
+        </div>
+
+
+    </div>
+    <div class="container display">
+        
+        <div class="container1  ">
+            <div class="top">
+                <div class="header">
+                    <h3 class="ques" >Give the answer of the following question:</h3>
+                    <h4>Q. <span id="question">Word</span></h4>
+                </div>
+                <div class="body">
+                    <div class="option" id="A1"><p><b>A. </b><span id="option1">1</span></p></div>
+                    <div class="option" id="A2"><p><b>B. </b><span id="option2">2</span></p></div>
+                    <div class="option" id="A3"><p><b>C. </b><span id="option3">3</span></p></div>
+                    <div class="option" id="A4"><p><b>D. </b><span id="option4">4</span></p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="start restart display" id="restart">
+        <!-- <div>
+            <h1 style="text-align: center;">Thanks! for Playing</h1>
+        </div> -->
+        <div class="score">
+            <h4>Score:</h4>
+        </div>
+        <div class="btn">
+            <button onclick="restart()">Restart</button>
+        </div>
+</body>
+<script src="index.js"></script>
+</html>
